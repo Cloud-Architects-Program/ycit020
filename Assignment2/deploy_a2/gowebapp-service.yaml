@@ -4,6 +4,8 @@ metadata:
   name: gowebapp
   labels:
     run: gowebapp
+  annotations:
+    cloud.google.com/neg: '{"ingress": true}'
 spec:
   ports:
   - port: 9000
